@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  var apiRoot = 'https://morning-depths-31083.herokuapp.com/v1/task/';
-  var trelloApiRoot = 'https://morning-depths-31083.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://morning-depths-31083.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://morning-depths-31083.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
